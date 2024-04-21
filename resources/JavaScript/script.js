@@ -1,15 +1,11 @@
 let tabLinks = document.querySelectorAll('.tab-links');
-// console.log(tabLinks);
 
 tabLinks.forEach((item, index) => {
-    // console.log(item);
 });
 
 let tabContents = document.querySelectorAll('.tab-contents');
-// console.log(tabContents);
 
 tabContents.forEach((value, idx) => {
-    // console.log(value);
 })
 
 function openTab(tabName) {
