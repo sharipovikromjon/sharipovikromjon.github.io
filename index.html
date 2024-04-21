@@ -10,26 +10,83 @@
 </head>
 <body>
   <!-- Header Start -->
-    <div id="header">
-      <div class="container">
-        <nav>
-          <a href="#header"><img src="./resources/images/logo.png" alt="logo"></a>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="header-text">
-          <p>Front-end Developer</p>
-          <h1>Hi, I'm <span>Ikromjon</span> <br> Sharipov from Uzbekistan</h1>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <a href="#header"><img src="./resources/images/logo.png" alt="logo"></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Front-end Developer</p>
+        <h1>Hi, I'm <span>Ikromjon</span> <br> Sharipov from Uzbekistan</h1>
+      </div>
+    </div>
+  </div>
+  <!-- Header section End -->
+
+  <!-- About section START -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="./resources/images/user.png" alt="Image of Author">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur qui consequatur odit maiores modi quod facere sunt? Doloremque nobis illo reiciendis! Aperiam saepe porro quis nesciunt quas exercitationem quasi ipsam quo neque esse non tenetur accusantium eius amet eos nemo itaque, minus, inventore doloremque dignissimos unde. Ipsam eaque quod dolorem.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+            <p class="tab-links active-link" onclick="openTab('experience')">Experience</p>
+            <p class="tab-links active-link" onclick="openTab('education')">Education</p>
+          </div>
+          <!-- Skills -->
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Front-end</span>
+                <br>HTML, CSS, Bootstrap,
+                 JavaScript, React js, 
+                 Next.js, Git/GitHub
+              </li>
+              <li><span>Back-end</span>
+                <br>Node.js, Java
+              </li>
+              <li><span>Language</span>
+                <br>English (Fluent), Russian (Intermediate), Uzbek (Native)
+              </li>
+            </ul>
+          </div>
+          <!-- Experience -->
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Websites</span><br>Responsive websites</li>
+              <li><span>Web Application</span><br>Restaurant website</li>
+              <li><span>Games</span><br>Interactive games</li>
+            </ul>
+          </div>
+          <!-- Education -->
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>BSc</span><br>Computer Science</li>
+              <li><span>GPA</span><br>3.5/4.0</li>
+              <li><span>Current Student</span>
+                <br>Sophomore CS student at 
+                <a href="https://centralasian.uz/" target="_blank" class="university">CAU</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  <!-- Header End -->
+  </div>
+  <!-- About section END -->
 
+<script src="./resources/JavaScript/script.js"></script>
 
 </body>
 </html>
