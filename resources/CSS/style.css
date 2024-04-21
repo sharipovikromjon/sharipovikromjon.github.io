@@ -189,10 +189,33 @@ nav ul li a:hover {
     font-size: 13px;
     font-weight: 300;
     border-radius: 20px;
+    transition: background 0.5s transform 0.5s;
 }
 .services-list div i {
     font-size: 50px;
     margin-bottom: 30px;
+}
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.services-list div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div:hover {
+    background: #ff004f;
+    transform: translateY(-20px);
+}
+.services-list p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 22px;
 }
 /* Services section styling END */
 
