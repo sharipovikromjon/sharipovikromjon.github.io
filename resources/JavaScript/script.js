@@ -19,4 +19,18 @@ function openTab(tabName) {
     document.getElementById(tabName).classList.add("active-tab");
 }
 
+// For side menu
+let side = document.querySelector('.sidemenu');
+
+function openmenu() {
+    side.style.right = "0";
+}
+
+function closemenu() {
+    side.style.right = "-200px";
+}
+
+
+
+
 
