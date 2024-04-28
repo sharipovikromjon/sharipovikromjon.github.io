@@ -1,4 +1,5 @@
-let tabLinks = document.querySelectorAll('.tab-links');
+document.addEventListener('DOMContentLoaded', () => {
+    let tabLinks = document.querySelectorAll('.tab-links');
 
 tabLinks.forEach((item, index) => {
 });
@@ -29,6 +30,8 @@ function openmenu() {
 function closemenu() {
     side.style.right = "-200px";
 }
+});
+
 
 
 
