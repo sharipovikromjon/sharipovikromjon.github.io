@@ -1,17 +1,9 @@
-document.addEventListener('DOMContentLoaded', () => {
-    let tabLinks = document.querySelectorAll('.tab-links');
-
-tabLinks.forEach((item, index) => {
-});
-
-let tabContents = document.querySelectorAll('.tab-contents');
-
-tabContents.forEach((value, idx) => {
-})
+    let tabLinks = document.querySelectorAll(".tab-links");
+    let tabContents = document.querySelectorAll('.tab-contents');
 
 function openTab(tabName) {
     for(tabLink of tabLinks){
-        tabLink.classList.remove("active-link");
+        tabLink.classList.add("active-link");
     }
     for(tabContent of tabContents){
         tabContent.classList.remove("active-tab");
@@ -21,16 +13,15 @@ function openTab(tabName) {
 }
 
 // For side menu
-let side = document.querySelector('.sidemenu');
+let sidemenu = document.getElementById('sidemenu');
 
-function openmenu() {
-    side.style.right = "0";
+function open_menu() {
+    sidemenu.style.right = "0";
 }
 
-function closemenu() {
-    side.style.right = "-200px";
+function close_menu() {
+    sidemenu.style.right = "-200px";
 }
-});
 
 
 

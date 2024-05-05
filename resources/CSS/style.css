@@ -118,6 +118,11 @@ nav ul li a:hover {
 .about-col-2 {
     flex-basis: 60%;
 }
+.about-col-2 .about-text {
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    word-spacing: 1.5px;
+}
 .sub-title {
     font-size: 60px;
     font-weight: 600;
@@ -130,7 +135,7 @@ nav ul li a:hover {
 }
 .tab-links {
     margin-right: 50px;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -156,11 +161,13 @@ nav ul li a:hover {
 }
 .tab-contents ul li {
     list-style: none;
-    margin: 10px 0;
+    margin: 40px 0;
+    font-size: 18px;
+    line-height: 24px;
 }
 .tab-contents ul li span {
     color: #b54769;
-    font-size: 14px;
+    font-size: 22px;
 }
 .tab-contents ul li .university {
     text-decoration: none;
@@ -384,7 +391,7 @@ nav .fa-solid {
         font-size: 16px;
     }
     .header-text h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     nav .fa-solid {
         display: block;
