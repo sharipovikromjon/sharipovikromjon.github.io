@@ -364,7 +364,7 @@ form .btn2 {
 }
 /* Contact section styling END */
 
-/* Copy right section styling START */
+/* Copy right / Footer section styling START */
 .copyright {
     width: 100%;
     text-align: center;
@@ -376,7 +376,7 @@ form .btn2 {
 .copyright i {
     color: #ff004f;
 }
-/* Copy right section styling END */
+/* Copy right / Footer section styling END */
 
 /* Making it responsive */
 nav .fa-solid {
