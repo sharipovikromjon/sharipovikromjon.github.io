@@ -74,11 +74,11 @@
 
 @media screen and (min-width: 536px) {
   .intro__content-item--text {
-    width: 504px;
+    max-width: 504px;
   }
 }
 @media screen and (min-width: 680px) {
   .intro__content-item--text {
-    width: 648px;
+    max-width: 610px;
   }
 }
