@@ -64,12 +64,3 @@
     display: none;
   }
 }
-
-@media screen and (max-width: 150px) {
-  .header__list--logo {
-    display: none;
-  }
-  .header__list {
-    justify-content: center;
-  }
-}
