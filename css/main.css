@@ -380,6 +380,9 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 48px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .experience__card {
   display: -webkit-box;
@@ -401,8 +404,8 @@ p {
   border-radius: 12px;
 }
 .experience__card--img {
-  width: 102px;
-  height: 28px;
+  width: 70px;
+  height: 50px;
 }
 .experience__card--title {
   text-align: left;
