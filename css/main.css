@@ -299,7 +299,7 @@ p {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
 }
 .skills__content--text {
   color: #4b5563;
@@ -356,6 +356,7 @@ p {
   margin-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 .experience__block--caption {
   color: #4b5563;
@@ -397,7 +398,7 @@ p {
   max-width: 896px;
   margin-left: auto;
   margin-right: auto;
-  padding: 32px;
+  padding: 62px;
   background-color: #fff;
   -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.07), 0px 2px 2px 0px rgba(0, 0, 0, 0.06);
           box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.07), 0px 2px 2px 0px rgba(0, 0, 0, 0.06);
